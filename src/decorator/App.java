@@ -11,7 +11,7 @@ public class App {
 		myCoquetel = new Refrigerante(myCoquetel);
 		System.out.println(myCoquetel.getNome() + " = R$ " + myCoquetel.getPreco() + "\n");
 		
-		//System.out.println(myCoquetel instanceof Cachaca);
+		System.out.println(myCoquetel instanceof Refrigerante);
 		
 	}
 
